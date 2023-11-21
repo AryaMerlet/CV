@@ -1,5 +1,6 @@
 body{
-    margin:0;
+    max-width: 1000px;
+    margin:0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -50,14 +51,18 @@ header div p{
     padding-bottom: 20px;
 }
 #contact, #langueprog, #logiciel, #langue, #interet{
-    float:;
+    float:left;
     width: 100%;
     background-color: red;
 }
-#meps, #mepm{
-    padding-left: 50px;
+#meps{
+    padding: 20px;
+}
+#mepm{
+    padding-left: 30px;
     padding-right:0px;
     padding-top:20px;
+    overflow: hidden;
 }
 #meps{
     max-width: 100%;
