@@ -1,0 +1,122 @@
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+header{
+    background:black;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin: 0;
+    position: relative;
+}
+h1{
+    font-size: 3rem;
+}
+header div p{
+    color:#ff914d;
+    font-size:1.5rem;
+}
+#triangle{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    border-right : 25px solid transparent;
+    border-bottom : 40px solid #263547;
+    border-left : 25px solid transparent;
+    display : inline-block;
+    bottom:0px;
+    left:10.5%;
+    z-index: 1;
+}
+header div h1{
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header div p{
+    color:#ff914d;
+    text-align:center;
+}
+#overflow{
+    overflow:hidden;
+}
+#side{
+    float:left;
+    width:25%;
+    height: 100%;
+    background:#263547; 
+    padding-bottom: 20px;
+}
+#contact, #langueprog, #logiciel, #langue, #interet{
+    float:;
+    width: 100%;
+    background-color: red;
+}
+#meps, #mepm{
+    padding-left: 50px;
+    padding-right:0px;
+    padding-top:20px;
+}
+#meps{
+    max-width: 100%;
+    float:left;
+}
+#meps div{
+    max-width: 100%;
+}
+.titres, .titrem{
+    color:#ff914d;
+    font-weight: 600;
+    font-size: 1.33rem;
+    text-transform: uppercase;
+}
+.titres{
+    word-wrap: break-word;
+    background:yellowgreen
+}
+div .textes p{
+    color:white;
+    margin:0;
+    background:yellow;
+}
+#main{
+    width:75%;
+    float:left;
+}
+#exppro, #formation, #competences, #connaissance{
+    float:left;
+    width: 50%;
+}
+#formation .encapsm{
+    margin-bottom: 50px;
+}
+#competences{
+    margin-top:0;
+}
+#competences .encapsm, #connaissance .encapsm{
+    border-top: #ff914d solid 3px;
+}
+.lieu{
+    font-weight: 200;
+    margin:0;
+}
+.sstitrem{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.encapsm{
+    padding-right: 20px;
+}
+.lighter{
+    font-weight: lighter;
+}
+div .textem p{
+    margin:0;
+}
+@media screen and (max-width:1000px){
+    #exppro, #formation, #competences, #connaissance{
+        width: 100%;
+    }
+}
