@@ -5,6 +5,7 @@ body{
     font-size: 14px;
     font-weight: 400;
 }
+/*#region header*/
 header{
     background:black;
     padding-top:10px ;
@@ -40,9 +41,14 @@ header div p{
     color:#ff914d;
     text-align:center;
 }
-#overflow{
+
+/*#endregion*/
+
+#overflow2colonne{
     overflow:hidden;
 }
+
+/*#region Side*/
 #side{
     float:left;
     width:25%;
@@ -53,7 +59,6 @@ header div p{
 #contact, #langueprog, #logiciel, #langue, #interet{
     float:left;
     width: 100%;
-    background-color: red;
 }
 #meps{
     padding: 20px;
@@ -79,20 +84,21 @@ header div p{
 }
 .titres{
     word-wrap: break-word;
-    background:yellowgreen
 }
 div .textes p{
     color:white;
     margin:0;
-    background:yellow;
 }
+
+/*#endregion*/
+
+/*#region main*/
 #main{
     width:75%;
     float:left;
 }
-#exppro, #formation, #competences, #connaissance{
-    float:left;
-    width: 50%;
+#xppro, #formation, #competences, #connaissance{
+    float:eft;
 }
 #formation .encapsm{
     margin-bottom: 50px;
@@ -100,7 +106,7 @@ div .textes p{
 #competences{
     margin-top:0;
 }
-#competences .encapsm, #connaissance .encapsm{
+#xppro .encapsm, #formation .encapsm{
     border-top: #ff914d solid 3px;
 }
 .lieu{
@@ -120,6 +126,9 @@ div .textes p{
 div .textem p{
     margin:0;
 }
+
+/*#endregion*/
+
 @media screen and (max-width:1000px){
     #exppro, #formation, #competences, #connaissance{
         width: 100%;
