@@ -46,7 +46,6 @@ header div p{
 
 #overflow2colonne{
     overflow:hidden;
-    margin-bottom: 0px;
 }
 
 /*#region Side*/
@@ -96,8 +95,8 @@ div .textes p{
     width:75%;
     float:left;
 }
-#xppro, #formation, #competences, #connaissance{
-    float:eft;
+#competences{
+    padding-bottom: 10px;
 }
 #formation .encapsm{
     margin-bottom: 50px;
