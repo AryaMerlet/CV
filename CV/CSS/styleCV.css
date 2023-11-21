@@ -1,9 +1,11 @@
 body{
-    margin:0;
+    max-width: 1000px;
+    margin:0 auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
+/*#region header*/
 header{
     background:black;
     padding-top:10px ;
@@ -39,9 +41,14 @@ header div p{
     color:#ff914d;
     text-align:center;
 }
-#overflow{
+
+/*#endregion*/
+
+#overflow2colonne{
     overflow:hidden;
 }
+
+/*#region Side*/
 #side{
     float:left;
     width:25%;
@@ -50,14 +57,17 @@ header div p{
     padding-bottom: 20px;
 }
 #contact, #langueprog, #logiciel, #langue, #interet{
-    float:;
+    float:left;
     width: 100%;
-    background-color: red;
 }
-#meps, #mepm{
-    padding-left: 50px;
+#meps{
+    padding: 20px;
+}
+#mepm{
+    padding-left: 30px;
     padding-right:0px;
     padding-top:20px;
+    overflow: hidden;
 }
 #meps{
     max-width: 100%;
@@ -66,28 +76,27 @@ header div p{
 #meps div{
     max-width: 100%;
 }
-.titres, .titrem{
+.titres{
     color:#ff914d;
     font-weight: 600;
     font-size: 1.33rem;
     text-transform: uppercase;
-}
-.titres{
     word-wrap: break-word;
-    background:yellowgreen
 }
 div .textes p{
     color:white;
     margin:0;
-    background:yellow;
 }
+
+/*#endregion*/
+
+/*#region main*/
 #main{
     width:75%;
     float:left;
 }
-#exppro, #formation, #competences, #connaissance{
-    float:left;
-    width: 50%;
+#competences{
+    padding-bottom: 10px;
 }
 #formation .encapsm{
     margin-bottom: 50px;
@@ -95,8 +104,14 @@ div .textes p{
 #competences{
     margin-top:0;
 }
-#competences .encapsm, #connaissance .encapsm{
+#xppro .encapsm, #formation .encapsm{
     border-top: #ff914d solid 3px;
+}
+.titrem{
+    color:#ff914d;
+    font-weight: 600;
+    font-size: 1.33rem;
+    text-transform: uppercase;
 }
 .lieu{
     font-weight: 200;
@@ -115,6 +130,9 @@ div .textes p{
 div .textem p{
     margin:0;
 }
+
+/*#endregion*/
+
 @media screen and (max-width:1000px){
     #exppro, #formation, #competences, #connaissance{
         width: 100%;
